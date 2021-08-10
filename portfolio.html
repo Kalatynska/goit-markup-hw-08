@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <!-- <header class="header">
+      <div class="container header-container">
+        <nav class="navigation">
+          <a href="./index.html" class="logo logo-header"
+            ><span class="logo-accent"> Web</span>Studio</a
+          >
+          <ul class="site-nav list">
+            <li class="item"><a href="./index.html" class="link">Студия</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link current">Портфолио</a>
+            </li>
+            <li class="item"><a href="#contacts" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <ul class="auth-nav list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link auth-nav-link">
+              <svg class="auth-nav-svg" width="16px" height="12px">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+
+          <li class="item">
+            <a href="tel:+380961111111" class="link auth-nav-link">
+              <svg class="auth-nav-svg" width="10px" height="16px">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header> -->
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <ul class="list filter">
+            <li class="item">
+              <button type="button" class="filter-button">Все</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filter-button">Веб-сайты</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filter-button">Приложения</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filter-button">Дизайн</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filter-button">Маркетинг</button>
+            </li>
+          </ul>
+
+          <ul class="portfolio-list list">
+            <li class="item">
+              <a class="portfolio-list-link" href="">
+                <div class="portfolio-list-wrapper">
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf1_technokryak@1x.jpg 1x,
+                        ./images/portf1_technokryak@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf1_technokryak@1x.webp 1x,
+                        ./images/portf1_technokryak@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf1_technokryak_tablet@1x.jpg 1x,
+                        ./images/portf1_technokryak_tablet@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf1_technokryak_tablet@1x.webp 1x,
+                        ./images/portf1_technokryak_tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf1_technokryak_mobile@1x.jpg 1x,
+                        ./images/portf1_technokryak_mobile@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf1_technokryak_mobile@1x.webp 1x,
+                        ./images/portf1_technokryak_mobile@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      src="./images/portf1_technokryak_mobile@1x.jpg"
+                      alt="Технокряк"
+                    />
+                  </picture>
+
+                  <p class="overlay">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+
+                <div class="portfolio-content">
+                  <h3 class="portfolio-title">Технокряк</h3>
+                  <p class="type">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="item">
+              <a class="portfolio-list-link" href="">
+                <div class="portfolio-list-wrapper">
+                  <p class="overlay">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere, inventore molestias accusamus perspiciatis a
+                    consequuntur ipsa aliquam assumenda, sequi nesciunt, impedit
+                    atque! Atque aliquam recusandae quos aspernatur quam,
+                    voluptas mollitia!
+                  </p>
+
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf2_poster@1x.jpg 1x,
+                        ./images/portf2_poster@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf2_poster@1x.webp 1x,
+                        ./images/portf2_poster@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf2_poster_tablet@1x.jpg 1x,
+                        ./images/portf2_poster_tablet@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf2_poster_tablet@1x.webp 1x,
+                        ./images/portf2_poster_tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf2_poster_mobile@1x.jpg 1x,
+                        ./images/portf2_poster_mobile@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf2_poster_mobile@1x.webp 1x,
+                        ./images/portf2_poster_mobile@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      src="./images/portf2_poster_mobile@1x.jpg"
+                      alt="Постер New Orlean vs Golden Star"
+                    />
+                  </picture>
+                </div>
+                <div class="portfolio-content">
+                  <h3 class="portfolio-title">
+                    Постер New Orlean vs Golden Star
+                  </h3>
+                  <p class="type">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="item">
+              <a class="portfolio-list-link" href="">
+                <div class="portfolio-list-wrapper">
+                  <p class="overlay">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere, inventore molestias accusamus perspiciatis a
+                    consequuntur ipsa aliquam assumenda, sequi nesciunt, impedit
+                    atque! Atque aliquam recusandae quos aspernatur quam,
+                    voluptas mollitia!
+                  </p>
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf3_restaurant@1x.jpg 1x,
+                        ./images/portf3_restaurant@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf3_restaurant@1x.webp 1x,
+                        ./images/portf3_restaurant@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf3_restaurant_tablet@1x.jpg 1x,
+                        ./images/portf3_restaurant_tablet@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf3_restaurant_tablet@1x.webp 1x,
+                        ./images/portf3_restaurant_tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf3_restaurant_mobile@1x.jpg 1x,
+                        ./images/portf3_restaurant_mobile@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf3_restaurant_mobile@1x.webp 1x,
+                        ./images/portf3_restaurant_mobile@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      src="./images/portf3_restaurant_mobile@1x.jpg"
+                      alt="Ресторан Seafood"
+                    />
+                  </picture>
+                </div>
+                <div class="portfolio-content">
+                  <h3 class="portfolio-title">Ресторан Seafood</h3>
+                  <p class="type">Приложение</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="item">
+              <a class="portfolio-list-link" href="">
+                <div class="portfolio-list-wrapper">
+                  <p class="overlay">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere, inventore molestias accusamus perspiciatis a
+                    consequuntur ipsa aliquam assumenda, sequi nesciunt, impedit
+                    atque! Atque aliquam recusandae quos aspernatur quam,
+                    voluptas mollitia!
+                  </p>
+
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf4_prime@1x.jpg 1x,
+                        ./images/portf4_prime@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf4_prime@1x.webp 1x,
+                        ./images/portf4_prime@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf4_prime_tablet@1x.jpg 1x,
+                        ./images/portf4_prime_tablet@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf4_prime_tablet@1x.webp 1x,
+                        ./images/portf4_prime_tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf4_prime_mobile@1x.jpg 1x,
+                        ./images/portf4_prime_mobile@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf4_prime_mobile@1x.webp 1x,
+                        ./images/portf4_prime_mobile@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      src="./images/portf4_prime_mobile@1x.jpg"
+                      alt="Проект Prime"
+                    />
+                  </picture>
+                </div>
+                <div class="portfolio-content">
+                  <h3 class="portfolio-title">Проект Prime</h3>
+                  <p class="type">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="item">
+              <a class="portfolio-list-link" href="">
+                <div class="portfolio-list-wrapper">
+                  <p class="overlay">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere, inventore molestias accusamus perspiciatis a
+                    consequuntur ipsa aliquam assumenda, sequi nesciunt, impedit
+                    atque! Atque aliquam recusandae quos aspernatur quam,
+                    voluptas mollitia!
+                  </p>
+
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf5_boxes@1x.jpg 1x,
+                        ./images/portf5_boxes@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf5_boxes@1x.webp 1x,
+                        ./images/portf5_boxes@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf5_boxes_tablet@1x.jpg 1x,
+                        ./images/portf5_boxes_tablet@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf5_boxes_tablet@1x.webp 1x,
+                        ./images/portf5_boxes_tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf5_boxes_mobile@1x.jpg 1x,
+                        ./images/portf5_boxes_mobile@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf5_boxes_mobile@1x.webp 1x,
+                        ./images/portf5_boxes_mobile@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      src="./images/portf5_boxes_mobile@1x.jpg"
+                      alt="Проект Boxes"
+                    />
+                  </picture>
+                </div>
+                <div class="portfolio-content">
+                  <h3 class="portfolio-title">Проект Boxes</h3>
+                  <p class="type">Приложение</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="item">
+              <a class="portfolio-list-link" href="">
+                <div class="portfolio-list-wrapper">
+                  <p class="overlay">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere, inventore molestias accusamus perspiciatis a
+                    consequuntur ipsa aliquam assumenda, sequi nesciunt, impedit
+                    atque! Atque aliquam recusandae quos aspernatur quam,
+                    voluptas mollitia!
+                  </p>
+
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf6_inspiration@1x.jpg 1x,
+                        ./images/portf6_inspiration@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf6_inspiration@1x.webp 1x,
+                        ./images/portf6_inspiration@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf6_inspiration_tablet@1x.jpg 1x,
+                        ./images/portf6_inspiration_tablet@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf6_inspiration_tablet@1x.webp 1x,
+                        ./images/portf6_inspiration_tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf6_inspiration_mobile@1x.jpg 1x,
+                        ./images/portf6_inspiration_mobile@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf6_inspiration_mobile@1x.webp 1x,
+                        ./images/portf6_inspiration_mobile@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      src="./images/portf6_inspiration_mobile@1x.jpg"
+                      alt="Inspiration has no Borders"
+                    />
+                  </picture>
+                </div>
+                <div class="portfolio-content">
+                  <h3 lang="en" class="portfolio-title">
+                    Inspiration has no Borders
+                  </h3>
+                  <p class="type">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="item">
+              <a class="portfolio-list-link" href="">
+                <div class="portfolio-list-wrapper">
+                  <p class="overlay">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere, inventore molestias accusamus perspiciatis a
+                    consequuntur ipsa aliquam assumenda, sequi nesciunt, impedit
+                    atque! Atque aliquam recusandae quos aspernatur quam,
+                    voluptas mollitia!
+                  </p>
+
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf7_edition@1x.jpg 1x,
+                        ./images/portf7_edition@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf7_edition@1x.webp 1x,
+                        ./images/portf7_edition@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf7_edition_tablet@1x.jpg 1x,
+                        ./images/portf7_edition_tablet@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf7_edition_tablet@1x.webp 1x,
+                        ./images/portf7_edition_tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf7_edition_mobile@1x.jpg 1x,
+                        ./images/portf7_edition_mobile@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf7_edition_mobile@1x.webp 1x,
+                        ./images/portf7_edition_mobile@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      src="./images/portf7_edition_mobile@1x.jpg"
+                      alt="Издание Limited Edition"
+                    />
+                  </picture>
+                </div>
+                <div class="portfolio-content">
+                  <h3 class="portfolio-title">Издание Limited Edition</h3>
+                  <p class="type">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="item">
+              <a class="portfolio-list-link" href="">
+                <div class="portfolio-list-wrapper">
+                  <p class="overlay">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere, inventore molestias accusamus perspiciatis a
+                    consequuntur ipsa aliquam assumenda, sequi nesciunt, impedit
+                    atque! Atque aliquam recusandae quos aspernatur quam,
+                    voluptas mollitia!
+                  </p>
+
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf8_lab@1x.jpg 1x,
+                        ./images/portf8_lab@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf8_lab@1x.webp 1x,
+                        ./images/portf8_lab@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf8_lab_tablet@1x.jpg 1x,
+                        ./images/portf8_lab_tablet@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf8_lab_tablet@1x.webp 1x,
+                        ./images/portf8_lab_tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf8_lab_mobile@1x.jpg 1x,
+                        ./images/portf8_lab_mobile@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf8_lab_mobile@1x.webp 1x,
+                        ./images/portf8_lab_mobile@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      src="./images/portf8_lab_mobile@1x.jpg"
+                      alt="Проект LAB"
+                    />
+                  </picture>
+                </div>
+                <div class="portfolio-content">
+                  <h3 class="portfolio-title">Проект LAB</h3>
+                  <p class="type">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="item">
+              <a class="portfolio-list-link" href="">
+                <div class="portfolio-list-wrapper">
+                  <p class="overlay">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere, inventore molestias accusamus perspiciatis a
+                    consequuntur ipsa aliquam assumenda, sequi nesciunt, impedit
+                    atque! Atque aliquam recusandae quos aspernatur quam,
+                    voluptas mollitia!
+                  </p>
+
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf9_growing@1x.jpg 1x,
+                        ./images/portf9_growing@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portf9_growing@1x.webp 1x,
+                        ./images/portf9_growing@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf9_growing_tablet@1x.jpg 1x,
+                        ./images/portf9_growing_tablet@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portf9_growing_tablet@1x.webp 1x,
+                        ./images/portf9_growing_tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf9_growing_mobile@1x.jpg 1x,
+                        ./images/portf9_growing_mobile@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portf9_growing_mobile@1x.webp 1x,
+                        ./images/portf9_growing_mobile@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      src="./images/portf9_growing_mobile@1x.jpg"
+                      alt="Growing Business"
+                    />
+                  </picture>
+                </div>
+                <div class="portfolio-content">
+                  <h3 lang="en" class="portfolio-title">Growing Business</h3>
+                  <p class="type">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="contacts" id="contacts">
+      <div class="container container-footer">
+        <div class="container-address">
+          <a href="./" class="logo logo-footer"
+            ><span class="logo-accent"> Web</span>Studio</a
+          >
+          <address>
+            <ul class="list">
+              <li class="address-item">
+                <a
+                  class="map link address"
+                  href="https://goo.gl/maps/K4oWXbqAfrU8sRuB9"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="mailto:info@devstudio.com" class="contacts-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="tel:+380961111111" class="contacts-link"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="social-media list">
+          <p class="footer-form-title">Присоединяйтесь</p>
+          <ul class="social-media-list social-media-footer list">
+            <li class="social-media-item">
+              <a href="#" class="social-media-link media-link-footer">
+                <svg class="social-media-icon" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a href="#" class="social-media-link media-link-footer">
+                <svg class="social-media-icon" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a href="#" class="social-media-link media-link-footer">
+                <svg class="social-media-icon" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a href="#" class="social-media-link media-link-footer">
+                <svg class="social-media-icon" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="subscription">
+          <form action="#" class="">
+            <p class="footer-form-title">Подпишитесь на рассылку</p>
+            <div class="subscription-form">
+              <input
+                type="email"
+                class="subscription-form-input"
+                name="user-email"
+                required
+                id="email"
+                placeholder="E-mail"
+              />
+              <svg class="subscription-form-icon" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+              <button type="submit" class="subscription-form-submit button">
+                Подписаться
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
