@@ -4,7 +4,6 @@
 
 .features-list {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
 }
 
@@ -32,7 +31,7 @@
   .features-list__item {
     margin-left: 30px;
     margin-top: 30px;
-    flex-basis: calc((100% - 120px) / 4);
+    flex-basis: calc((100% - 60px) / 2);
   }
 
   .features-list__svg {
@@ -49,5 +48,8 @@
 @media screen and (min-width: 1200px) {
   .features {
     padding-bottom: 47px;
+  }
+  .features-list__item {
+    flex-basis: calc((100% - 120px) / 4);
   }
 }
