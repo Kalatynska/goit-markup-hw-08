@@ -32,8 +32,7 @@
           </ul>
         </nav>
 
-<button class="burger-btn js-open-menu " aria-expanded="false"
-          aria-controls="mobile-menu">
+<button class="burger-btn" data-menu-open>
   <svg class="burger-btn-svg" width="24px" height="16px">
                 <use href="./images/icons.svg#icon-burger"></use>
               </svg>
@@ -62,54 +61,69 @@
 
       <!---- Burger-menu ---->
 
- <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-       <svg class="icon-close" width="18px" height="18px">
+<div class="mobile-menu" data-menu>
+
+  <div class="mobile-container">
+  <button class="mobile-menu__close-btn" data-menu-close>
+    <svg class="mobile-menu__close-icon" width="18px" height="18px">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
-      </button>
+  </button>
 
-      <div>
-       <nav>
-                <ul class="mobile-menu-list list">
-                    <li class="mobile-menu">
-                        <a class="mobile-menu mobile-menu-current" href= "./index.html">Студия</a>
-                    </li>
-                    <li class="mobile-menu">
-                        <a class="mobile-menu" href= "./portfolio.html">Портфолио</a>
-                    </li>
-                    <li class="mobile-menu">
-                        <a class="mobile-menu" href= "№">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <ul class="mobile-contacts list">
-                <li class="mobile-contact__item">
-                    <a class="mobile-contact__link-tel" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-                <li class="mobile-contact__item">
-                    <a class="mobile-contact__link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-            </ul>
-            <ul class="mobile-social list">
-                <li class="mobile-social__item">
-                    <a href class="mobile-social__link">Instagram</a>
-                    </li>
-                <li class="mobile-social__item">
-                    <a href class="mobile-social__link">Twitter</a>
-                    
-                </li>
-                <li class="mobile-social__item">
-                    <a href class="mobile-social__link">Facebook</a>
-                    </li>
-                   
-                    <li class="mobile-social__item">
-                        <a href class="mobile-social__link">LinkedIn</a>
-                    </li>
-            </ul>
-        </div>
+  <ul class="mobile-nav-list ">
+    <li class="mobile-nav-list-item list ">
+      <a href="./index.html" class="mobile-nav-list-link">Студия</a>
+    </li>
+    <li class="mobile-nav-list-item list">
+      <a href="./portfolio.html" class="mobile-nav-list-link">Портфолио</a>
+    </li>
+    <li class="mobile-nav-list-item list">
+      <a href="" class="mobile-nav-list-link">Контакты</a>
+    </li>
+  </ul>
 
-    </div>
+  <ul class="mobile-contacts-list ">
+    <li class="mobile-contacts-list-item list ">
+      <a href="" class="mobile-contacts-list-link-tel">+38 096 111 11 11</a>
+    </li>
+    <li class="mobile-contacts-list-item list">
+      <a href="" class="mobile-contacts-list-link-email">info@devstudio.com</a>
+    </li>
+     </ul>
+
+  <ul class="mobile-social-list list">
+    <li class="mobile-social-list-item list ">
+      <a href=""  class="mobile-social-list-link">
+        Instagram
+      </a>
+    </li>
+    <li class="mobile-social-list-item list ">
+      <a href=""  class="mobile-social-list-link">
+        Twitter
+      </a>
+    </li>
+    <li class="mobile-social-list-item list ">
+      <a href=""  class="mobile-social-list-link">
+        Facebook
+      </a>
+    </li>
+    <li class="mobile-social-list-item list ">
+      <a href=""  class="mobile-social-list-link">
+        LinkedIn
+      </a>
+    </li>
+  </ul>
+  </div>
+  
+</div>
+
+
+      
+
+            
+                  
+
+    
     </header>
 
 
@@ -702,6 +716,6 @@
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <script defer src="js/mobile-menu.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
