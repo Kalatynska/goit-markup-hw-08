@@ -112,7 +112,10 @@ address {
   transform: translateY(-50%);
   right: 28px;
 }
-
+.container-address-social {
+  display: flex;
+  align-items: center;
+}
 @media screen and (max-width: 768px) {
   .container-address,
   .social-media-footer {
@@ -123,7 +126,11 @@ address {
     margin-left: 100px;
     margin-bottom: 60px;
   }
-
+  .subscription {
+  }
+  .container-address-social {
+    flex-direction: column;
+  }
   .subscription-form-input {
     width: 100%;
     // padding-bottom: 20px;
@@ -156,6 +163,32 @@ address {
     margin-left: 60px;
     margin-right: 60px;
     margin-bottom: 60px;
+  }
+  .container-address-social {
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;
+  }
+
+  .subscription-form-input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .subscription {
+    margin: auto;
+    text-align: center;
+  }
+  .container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .subscription-form-icon {
+    position: absolute;
+    top: 77%;
+    left: 62%;
+    right: 28px;
   }
 }
 
