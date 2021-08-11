@@ -977,22 +977,28 @@ address {
 
 @media screen and (max-width: 768px) {
   .container-address,
-  .social-media {
-    width: 232px;
+  .social-media-footer {
     width: 100%;
     text-align: center;
-  }
-  .social-media-footer {
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 60px;
   }
   .subscription-form-input {
     width: 100%;
-    padding-bottom: 20px;
+  }
+  .subscription-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   .footer-form-title {
     text-align: center;
+  }
+  .subscription-form-submit {
+    margin-top: 20px;
   }
 }
 
