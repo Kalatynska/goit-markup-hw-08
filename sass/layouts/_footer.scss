@@ -141,13 +141,27 @@ address {
   .subscription-form-submit {
     margin-top: 20px;
   }
+
+  .subscription-form-icon {
+    position: absolute;
+    top: 77%;
+    left: 62%;
+    right: 28px;
+  }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .container-address,
+  .subscription {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .container-address {
+    margin-right: 70px;
     margin-right: 70px;
   }
 
