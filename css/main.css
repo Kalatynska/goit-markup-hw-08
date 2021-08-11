@@ -129,8 +129,8 @@ body {
   padding: 40px;
   display: block;
   margin: auto;
-  width: 528px;
-  min-height: 581px;
+  width: 450px;
+  min-height: 609px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -180,12 +180,12 @@ body {
 }
 
 .contact-form {
-  width: 448px;
+  width: 370px;
   margin: 0 auto;
 }
 
 .contact-form a {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--accent-color);
@@ -200,7 +200,7 @@ body {
   padding: 12px 12px 12px 42px;
   cursor: pointer;
   font-size: 12px;
-  line-height: 1.67;
+  line-height: 1.15;
   letter-spacing: 0.01em;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -255,7 +255,7 @@ body {
 }
 
 .contact-form-checkbox-condition {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -302,6 +302,25 @@ body {
   outline: none;
   border-color: var(--accent-color);
   fill: var(--accent-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-form-input {
+    line-height: 1.67;
+  }
+  .modal {
+    width: 528px;
+    min-height: 581px;
+  }
+  .contact-form {
+    width: 448px;
+  }
+  .contact-form-checkbox-condition {
+    font-size: 14px;
+  }
+  .contact-form a {
+    font-size: 14px;
+  }
 }
 
 .social-media-list {
@@ -425,6 +444,10 @@ body {
   width: 20px;
   height: 25px;
   fill: #000000;
+}
+
+.mobile-menu__close-icon:hover, .mobile-menu__close-icon:focus, .mobile-menu__close-icon:active {
+  fill: var(--accent-color);
 }
 
 .mobile-nav-list {
