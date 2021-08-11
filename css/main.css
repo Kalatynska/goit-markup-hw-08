@@ -928,7 +928,7 @@ address {
 }
 
 .subscription {
-  margin-left: auto;
+  align-items: center;
   display: flex;
 }
 
@@ -974,7 +974,7 @@ address {
   right: 28px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .container-footer {
     flex-direction: column;
     align-items: center;
@@ -993,6 +993,10 @@ address {
 @media screen and (min-width: 1200px) {
   .container-address {
     margin-right: 70px;
+  }
+  .subscription {
+    margin-left: auto;
+    display: flex;
   }
 }
 
